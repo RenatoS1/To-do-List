@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista De Tarefas</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon/alfinete.png" type="image/x-icon">
+</head>
+<body>
+
+
+    <!-- particles.js container -->
+    <div id="particles-js">
+        <div class="container">
+            <h1>To-Do List</h1>
+            <input id="taskInput" type="text" placeholder="Adicione uma tarefa..." autocomplete="off">
+            <button type="button" onclick="addTask()" class="button">Adicionar</button>
+            <ul id="taskList">
+                
+            </ul>
+        </div>
+    </div> <!-- stats - count particles -->
+    <!-- particles.js lib - https://github.com/VincentGarreau/particles.js -->
+    <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script> <!-- stats.js lib -->
+    <script src="http://threejs.org/examples/js/libs/stats.min.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
